@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="title">WowCube Random Cube Deck Builder!</string>
+	<string name="shuffle">Shuffle and start new game</string>
+	<string name="search">カードの検索 </string>
+	<string name="edit">Edit my library</string>
+	<string name="how">How to use WowCube</string>
+	<string name="about">About Wowcube</string>
+    <string name="app_name">WowCube</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+	<string name="title_activity_display_message">メセージ</string>
+	<string name="action_search">Search</string>
+
+</resources>

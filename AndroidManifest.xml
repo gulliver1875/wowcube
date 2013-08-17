@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gravity.wowcube"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk 
+        android:minSdkVersion="8" 
+        android:targetSdkVersion="11" />
+
+	<!--android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+	android:theme="@android:style/Theme.Dialog"-->
+    <application
+		android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:label="@string/app_name"
+            android:name=".MainActivity" >
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+		<activity
+			android:name="com.gravity.wowcube.DisplayMessageActivity"
+			android:label="@string/title_activity_display_message"
+			android:parentActivityName="com.gravity.wowcube.MainActivity">
+			<meta-data
+				android:name="android.support.PARENT_ACTIVITY"
+				android:value=".MainActivity"
+			/>
+		</activity>
+			
+			
+    </application>
+
+</manifest>
